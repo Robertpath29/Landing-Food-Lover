@@ -1,0 +1,23 @@
+body {
+    font-family: $fontMain;
+
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    transition: color 0.3s;
+}

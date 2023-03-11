@@ -1,0 +1,18 @@
+header.header.d-flex 
+    nav.header-navLeft
+        ul.d-flex 
+            -var menuLeft = ["home", "about", "menus", "offers"]
+            each name in menuLeft 
+                li 
+                    a(href="#").uppercase.colorMain.hover=name 
+    .header-logo.d-flex.colorMain
+        img(src="./img/logo.png" alt="logo")
+        h1 Food Lover
+        p Restaurant
+    nav.header-navRight
+        ul.d-flex 
+            -var menuLeft = ["gallery", "contact", "blog"]
+            each name in menuLeft 
+                li 
+                    a(href="#").uppercase.colorMain.hover=name  
+

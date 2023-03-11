@@ -1,0 +1,24 @@
+.d-flex {
+    display: flex;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.colorMain {
+    color: $colorMain;
+}
+
+.active {
+    color: $colorOrange;
+}
+
+.hover {
+    text-decoration: none;
+
+    &:hover {
+        color: $colorOrange;
+
+    }
+}
