@@ -1,0 +1,19 @@
+{
+  "name": "landing-food-lover",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robertpath29/Landing-Food-Lover.git"
+  },
+  "author": "Yevhenii Shapoval",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robertpath29/Landing-Food-Lover/issues"
+  },
+  "homepage": "https://github.com/Robertpath29/Landing-Food-Lover#readme"
+}
