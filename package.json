@@ -2,7 +2,7 @@
   "name": "landing-food-lover",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "main.js",
   "scripts": {
     "start": "set NODE_ENV=development&&webpack-dev-server",
     "prod": "set NODE_ENV=production&&webpack",
