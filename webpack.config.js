@@ -130,7 +130,19 @@ module.exports = {
                 generator: {
                     filename: "fonts/[name][ext]"
                 }
-            }
+            },
+            {
+                test: /\.mp4$/,
+                use: [
+                  {
+                    loader: 'file-loader',
+                    options: {
+                      name: '[name].[ext]',
+                      outputPath: 'videos/'
+                    }
+                  }
+                ]
+              }
 
         ]
     }
