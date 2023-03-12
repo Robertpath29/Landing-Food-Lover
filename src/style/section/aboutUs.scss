@@ -1,8 +1,7 @@
 .aboutUs {
-    background-color: $colorBackgroundMain;
     justify-content: center;
     align-items: center;
-    padding: 120px 0 205px 0;
+    padding: 120px 0 69px 0;
     flex-wrap: wrap-reverse;
 
 
@@ -20,22 +19,6 @@
 
 
     &-banner {
-        width: 100%;
-        max-width: 545px;
-        color: $colorMain;
-        height: max-content;
         margin-left: 38px;
-
-        &>h1 {
-            font-weight: 100;
-            font-size: 3.1rem;
-            margin-bottom: 20px;
-        }
-
-        &>p {
-            font-size: 2.1rem;
-            margin: 0;
-        }
-
     }
 }
