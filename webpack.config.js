@@ -22,6 +22,7 @@ module.exports = {
 
     entry: {
         jQuery: path.resolve(__dirname, "./node_modules/jquery/src/jquery.js"),
+        swiper: path.resolve(__dirname, "./node_modules/swiper/swiper-bundle.min.js"),
         main: path.resolve(__dirname, "src", "main.js"),
 
     },
@@ -41,7 +42,7 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: devMode ? "style.[contenthash].css" : "style.[contenthash].min.css",
         }),
-    
+
         new FaviconsWebpackPlugin({
             logo: path.resolve(__dirname, './src/img/favicons/food-lover-favicon.png'),
 
@@ -134,15 +135,15 @@ module.exports = {
             {
                 test: /\.mp4$/,
                 use: [
-                  {
-                    loader: 'file-loader',
-                    options: {
-                      name: '[name].[ext]',
-                      outputPath: 'video/'
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            outputPath: 'video/'
+                        }
                     }
-                  }
                 ]
-              }
+            }
 
         ]
     }

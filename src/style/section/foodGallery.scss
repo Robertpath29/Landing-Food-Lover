@@ -1,0 +1,44 @@
+.foodGallery {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 125px;
+    text-align: center;
+
+    &>h1 {
+        font-weight: 100;
+        font-size: 3.1rem;
+        color: $colorMain;
+    }
+
+    &>.swiper {
+        margin: 100px 40px 0 40px;
+
+        img {
+            width: 100%;
+            max-width: 410px;
+        }
+
+        .swiper-button-prev,
+        .swiper-button-next {
+
+            &::after {
+                font-size: 5rem;
+                color: $colorOrange;
+                transition: all 0.3s;
+
+            }
+
+            &:hover::after {
+                color: lighten($colorOrange, $amount: 20);
+            }
+
+        }
+
+        .swiper-scrollbar {
+            .swiper-scrollbar-drag {
+                background-color: $colorOrange;
+            }
+        }
+    }
+}

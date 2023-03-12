@@ -1,0 +1,12 @@
+section.foodGallery
+    h1 Our Food Gallery
+    .swiper
+        .swiper-wrapper
+            -var imagesNumber = [1,2,3,4,5,6]
+            each number in imagesNumber
+                .swiper-slide
+                    img(src=`./img/food-gallery-img${number}.png` alt="Gallery Img")
+            
+        .swiper-scrollbar
+        .swiper-button-prev
+        .swiper-button-next 
