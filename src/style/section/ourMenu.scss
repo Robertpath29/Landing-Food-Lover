@@ -1,0 +1,47 @@
+.ourMenu {
+    text-align: center;
+    color: $colorMain;
+    padding: 116px 0 185px 0;
+
+    &>h1{
+        font-weight: 100;
+        font-size: 3.4rem;
+    }
+
+    &-figure {
+        width: 100%;
+        text-align: start;
+        justify-content: space-around;
+        margin-top: 80px;
+        padding: 0 39px;
+        flex-wrap: wrap;
+        
+        &>figure {
+            margin: 0 10px;
+            width: 100%;
+            max-width: 410px;
+
+            &>figcaption {
+                font-size: 1.85rem;
+                color: $colorOrange;
+                margin-top: 30px;
+            }
+
+            &>p {
+                font-size: 1.1rem;
+            }
+
+            &>h3 {
+                font-weight: 100;
+                font-size: 1.7rem;
+                color: $colorOrange;
+            }
+        }
+
+
+    }
+
+
+
+
+}

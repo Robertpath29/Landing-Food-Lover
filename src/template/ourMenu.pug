@@ -1,0 +1,15 @@
+section.ourMenu
+    h1 Our Menu
+    .ourMenu-figure.d-flex 
+        -var imagesNumber = [1,2,3]
+        -var name = ["italian source mushroom","italian source mushroom","italian source mushroom"]
+        -var description =["Lorem ipsum dolor sit amet, consectetur adipisc- ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus- pendisse.","Lorem ipsum dolor sit amet, consectetur adipisc- ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus- pendisse.","Lorem ipsum dolor sit amet, consectetur adipisc- ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus- pendisse."]
+        -var price = ["12.00","12.00","12.00"]
+
+        each figure, kay in imagesNumber
+            figure 
+                img(src=`./img/Our-menu-img${figure}.png`, alt="figure images")
+                figcaption.uppercase=name[kay]
+                p=description[kay]
+                h3 Price: $
+                    span=price[kay]
