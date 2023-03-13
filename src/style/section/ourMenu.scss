@@ -3,7 +3,7 @@
     color: $colorMain;
     padding: 116px 0 185px 0;
 
-    &>h1{
+    &>h2 {
         font-weight: 100;
         font-size: 3.4rem;
     }
@@ -15,13 +15,20 @@
         margin-top: 80px;
         padding: 0 39px;
         flex-wrap: wrap;
-        
-        &>figure {
-            margin: 0 10px;
+
+        &>.figure-container {
             width: 100%;
             max-width: 410px;
+            margin: 0 10px;
 
-            &>figcaption {
+            figure {
+                width: 100%;
+                max-width: 410px;
+                margin: 0;
+
+            }
+
+            figcaption {
                 font-size: 1.85rem;
                 color: $colorOrange;
                 margin-top: 30px;

@@ -1,5 +1,5 @@
 section.ourMenu
-    h1 Our Menu
+    h2 Our Menu
     .ourMenu-figure.d-flex 
         -var imagesNumber = [1,2,3]
         -var name = ["italian source mushroom","italian source mushroom","italian source mushroom"]
@@ -7,9 +7,10 @@ section.ourMenu
         -var price = ["12.00","12.00","12.00"]
 
         each figure, kay in imagesNumber
-            figure 
-                img(src=`./img/Our-menu-img${figure}.png`, alt="figure images")
-                figcaption.uppercase=name[kay]
+            .figure-container
+                figure 
+                    img(src=`./img/Our-menu-img${figure}.png`, alt="figure images")
+                    figcaption.uppercase=name[kay]
                 p=description[kay]
                 h3 Price: $
                     span=price[kay]
