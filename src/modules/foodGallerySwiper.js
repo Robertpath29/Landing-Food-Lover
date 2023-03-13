@@ -8,7 +8,7 @@ $(window).on("load", function () {
         speed: 1500,
 
         slidesPerView: 3,
-        spaceBetween: 10,
+        spaceBetween: 14,
         
         // autoplay: {
         //     delay: 2000,

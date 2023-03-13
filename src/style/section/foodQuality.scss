@@ -2,15 +2,20 @@
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 512px 0 980px 0;
+    padding: 461px 0 1077px 0;
     background-image: url("/src/img/OutFoodQuality-img2.png"), url("/src/img/OutFoodQuality-background.png"), url("/src/img/OutFoodQuality-img1.png"), url("/src/img/OutFoodQuality-img3.png");
     background-repeat: no-repeat;
-    background-size: 61%, 100%, 30%, 36%;
+    background-size: 60.4%, 100%, 30%, 36%;
     background-repeat: no-repeat;
-    background-position: right 761px, 0, right top, left 1153px;
+    background-position: right 800px, 0, right 5px, left 1183px;
 
 
     &-banner {
-        margin-left: 186px;
+        margin-left: 199px;
+        max-width: 534px;
+
+        &>p {
+            margin-top: 28px;
+        }
     }
 }

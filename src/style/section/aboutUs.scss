@@ -1,7 +1,7 @@
 .aboutUs {
     justify-content: center;
     align-items: center;
-    padding: 120px 0 69px 0;
+    padding: 72px 0 69px 0;
     flex-wrap: wrap-reverse;
 
 
@@ -10,6 +10,7 @@
         width: 100%;
         max-width: 645px;
         height: 645px;
+        margin-left: 30px;
         background-image: url("/src/img/aboutUs-img.png");
         background-repeat: no-repeat;
         background-size: 100%;
@@ -19,6 +20,13 @@
 
 
     &-banner {
-        margin-left: 38px;
+        margin-left: 48px;
+        margin-bottom: 59px;
+        max-width: 535px;
+
+        &>h2{
+            margin-bottom: 32px;
+        }
+
     }
 }
