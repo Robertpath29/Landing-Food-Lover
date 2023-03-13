@@ -10,10 +10,10 @@ $(window).on("load", function () {
         slidesPerView: 3,
         spaceBetween: 10,
         
-        autoplay: {
-            delay: 2000,
-            disableOnInteraction: false,
-        },
+        // autoplay: {
+        //     delay: 2000,
+        //     disableOnInteraction: false,
+        // },
 
         direction: 'horizontal',
         loop: true,
