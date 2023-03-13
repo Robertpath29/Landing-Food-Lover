@@ -1,0 +1,16 @@
+footer.footer.d-flex 
+    .footer-logo    
+        h1 Food Lover
+    nav.footer-nav 
+        ul.d-flex 
+            -var menus = ["home","about us", "services", "foods", "contact", "location"]
+            each menu in menus
+                li
+                    a(href="#").uppercase=menu
+    .footer-icon.d-flex 
+        -var media = ["https://uk-ua.facebook.com/", "https://twitter.com/?lang=uk", "https://www.instagram.com/","https://ru.pinterest.com/"] 
+        -var icons = ["fa-brands fa-facebook-f", "fa-brands fa-twitter","fa-brands fa-instagram","fa-brands fa-pinterest-p"]
+        each icon, kay in icons 
+            a.d-flex(href=`${media[kay]}` target="_blanc") 
+                i(class=`${icon}`)  
+
