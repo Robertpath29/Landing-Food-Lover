@@ -18,4 +18,102 @@
             margin-top: 28px;
         }
     }
+
+    @media (max-width:1300px) {
+        padding: 355px 0 997px 0;
+        background-position: right 766px, 0, right 50px, left 1061px;
+    }
+
+    @media (max-width:1197px) {
+        &-banner {
+            margin-left: 20px;
+        }
+
+
+    }
+
+    @media (max-width:1133px) {
+        padding: 230px 0 860px 0;
+        background-position: right 641px, 0, right 26px, left 912px;
+    }
+
+    @media (max-width:981px) {
+        background-position: right 550px, 0, right 26px, left 799px;
+
+        &-banner {
+            &>h2 {
+                font-size: 2rem;
+            }
+
+            &>p {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    @media (max-width:882px) {
+        background-position: right 516px, 0, right 67px, left 751px;
+
+        &-banner {
+            max-width: 369px;
+
+            &>h2 {
+                font-size: 1.4rem;
+            }
+
+            &>p {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    @media (max-width:729px) {
+        padding: 73px 0 682px 0;
+        background-position: right 382px, 0, right 1px, left 580px;
+
+        &-banner {
+            max-width: 243px;
+        }
+
+    }
+
+    @media (max-width:696px) {
+        padding: 73px 0 548px 0;
+        background-position: right 332px, 0, right 26px, left 509px;
+        background-size: 60.4%, 100%, 26%, 36%;
+    }
+
+    @media (max-width:600px) {
+        padding: 73px 0 446px 0;
+        background-position: right 292px, 0, right 35px, left 443px;
+    }
+
+    @media (max-width:517px) {
+        padding: 73px 0 331px 0;
+        background-position: right 246px, 0, right 21px, left 379px;
+
+    }
+
+    @media (max-width:410px) {
+        padding: 73px 0 258px 0;
+        background-position: right 203px, 0, right 21px, left 310px;
+
+        &-banner {
+            max-width: 156px;
+
+            &>h2 {
+                font-size: 1.2rem;
+            }
+
+            &>p {
+                font-size: 0.8rem;
+            }
+        }
+
+    }
+
+    @media (max-width:341px) {
+        padding: 42px 0 187px 0;
+        background-position: right 161px, 0, right 15px, left 247px
+    }
 }

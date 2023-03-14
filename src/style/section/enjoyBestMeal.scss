@@ -19,10 +19,63 @@
         margin: 7px 218px 56px 20px;
         padding-right: 10px;
         padding-left: 17px;
-        &>p{
+
+        &>p {
             font-size: 2.05rem;
             margin-top: 29px;
         }
     }
+
+    @media (max-width:1061px) {
+        height: 344px;
+        &-banner {
+            margin-right: 20px;
+        }
+
+    }
+
+    @media (max-width:864px) {
+        height: 290px;
+        &-banner {
+            &>h2 {
+                font-size: 2.1rem;
+            }
+
+            &>p {
+                font-size: 1.4rem;
+            }
+        }
+
+    }
+    @media (max-width:653px) {
+        height: 212px;
+        &-banner {
+            &>h2 {
+                font-size: 1.6rem;
+            }
+
+            &>p {
+                font-size: 1.1rem;
+            }
+        }
+
+    }
+    @media (max-width:408px) {
+        height: 150px;
+        &-banner {
+            margin: 0;
+            &>h2 {
+                margin-bottom: 0;
+                font-size: 1.3rem;
+            }
+
+            &>p {
+                margin-top: 5px;
+                font-size: 0.8rem;
+            }
+        }
+
+    }
+
 
 }

@@ -76,4 +76,25 @@
             }
         }
     }
+
+    @media (max-width:828px) {
+        &-nav{
+            &>ul{
+                flex-wrap: wrap;
+                padding: 0 20px;
+                &>li{
+                    margin: 10px;
+                }
+            }
+        }
+        
+    }
+    @media (max-width:402px) {
+        padding-bottom: 57px;
+        &-logo{
+            margin-left: 140px;
+            margin-right: 20px;
+        }
+        
+    }
 }

@@ -49,13 +49,31 @@
 
         }
 
-        &>:nth-child(1){
+        &>:nth-child(1) {
             margin-right: 24px;
         }
 
     }
 
+    @media (max-width:807px) {
+        padding: 0;
+        padding-bottom: 40px;
+    }
 
+    @media (max-width:510px) {
+        .figure-container {
+            text-align: center;
+            margin-bottom: 20px;
+
+            &>figure {
+                &>img {
+                    width: 100%;
+                    max-width: 407px;
+                }
+            }
+        }
+
+    }
 
 
 }

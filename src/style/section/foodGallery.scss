@@ -42,4 +42,26 @@
             }
         }
     }
+
+    @media (max-width:729px) {
+        padding-bottom: 36px;
+
+        &>h2 {
+            font-size: 2.1rem;
+        }
+
+        .swiper {
+            margin: 20px 0
+        }
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            display: none;
+        }
+    }
+
+    @media (max-width:432px) {
+        padding-bottom: 0;
+
+    }
 }

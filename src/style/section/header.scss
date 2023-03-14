@@ -41,7 +41,7 @@
             font-size: 0.7rem;
         }
 
-        &::after{
+        &::after {
             position: absolute;
             content: "";
             width: 54px;
@@ -72,5 +72,32 @@
         }
 
 
+    }
+
+    @media (max-width:1000px) {
+        &-navLeft {
+            margin-left: 20px;
+        }
+    }
+
+    @media (max-width:855px) {
+
+        justify-content: flex-start;
+
+        &-logo {
+            display: none;
+        }
+
+        &-navRight {
+            position: absolute;
+            margin-top: 60px;
+            right: 0;
+
+            &>ul {
+                &>:last-child {
+                    margin-right: 20px;
+                }
+            }
+        }
     }
 }

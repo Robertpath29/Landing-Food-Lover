@@ -24,9 +24,44 @@
         margin-bottom: 59px;
         max-width: 535px;
 
-        &>h2{
+        &>h2 {
             margin-bottom: 32px;
         }
+
+    }
+
+    @media (max-width:851px) {
+        &-img {
+            margin-left: 0;
+        }
+
+    }
+
+    @media (max-width:703px) {
+        padding: 72px 20px;
+
+        &-img {
+            max-width: 450px;
+            height: 450px;
+        }
+
+        &-banner {
+            text-align: center;
+            margin: 0;
+            margin-bottom: 30px;
+
+            &>h2 {
+                font-size: 2.1rem;
+            }
+
+            &>p {
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+    @media (max-width:514px) {
+        padding-bottom: 30px;
 
     }
 }
