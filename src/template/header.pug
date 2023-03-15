@@ -4,7 +4,7 @@ header.header.d-flex
             -var menuLeft = ["home", "about", "menus", "offers"]
             each name in menuLeft 
                 li 
-                    a(href="#").uppercase.colorMain.hover=name 
+                    a.uppercase.colorMain.hover.pointer(id=name)=name
     .header-logo.d-flex.colorMain
         h1 Food Lover
         p Restaurant
@@ -13,5 +13,5 @@ header.header.d-flex
             -var menuLeft = ["gallery", "contact", "blog"]
             each name in menuLeft 
                 li 
-                    a(href="#").uppercase.colorMain.hover=name  
+                    a.uppercase.colorMain.pointer.hover(id=name)=name  
 

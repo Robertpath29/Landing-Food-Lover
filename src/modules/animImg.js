@@ -1,18 +1,9 @@
-$(window).on("load", function () {
+export function animationImg(scrollPages) {
+
     const heroImg = $(".hero-img");
     heroImg.css("display", "block");
 
-    $(document).on("scroll", animationImg);
-
-
-});
-
-
-
-
-function animationImg() {
     const header = $(".header");
-    const heroImg = $(".hero-img");
     const aboutUsImg = $(".aboutUs-img");
     const foodQualityImg1 = $(".imgFood1");
     const foodQualityImg2 = $(".imgFood2");
@@ -20,7 +11,6 @@ function animationImg() {
     const bestMeal = $(".enjoyBestMeal-img");
 
 
-    let scrollPages = Math.floor($(document).scrollTop());
     let scrollPagesBottom = scrollPages + $(window).height();
 
 
