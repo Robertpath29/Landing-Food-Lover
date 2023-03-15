@@ -3,6 +3,7 @@ import "./style.scss"
 
 
 import "./modules/foodGallerySwiper.js"
+import "./modules/animImg.js"
 
 
 

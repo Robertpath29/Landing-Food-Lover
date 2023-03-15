@@ -28,6 +28,7 @@
 
 
     &-img {
+        display: none;
         width: 100%;
         max-width: 626px;
         height: 488px;
@@ -35,8 +36,8 @@
         background-image: url("/src/img/hero-img.png");
         background-size: 100%;
         background-repeat: no-repeat;
-        background-position: 0;
-        // transition: all 1s;
+        background-position: -630px;
+
 
         @media (max-width:1390px) {
             margin-left: 20px;

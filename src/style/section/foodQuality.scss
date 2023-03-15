@@ -1,13 +1,64 @@
 .foodQuality {
+    position: relative;
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
     padding: 461px 0 1077px 0;
-    background-image: url("/src/img/OutFoodQuality-img2.png"), url("/src/img/OutFoodQuality-background.png"), url("/src/img/OutFoodQuality-img1.png"), url("/src/img/OutFoodQuality-img3.png");
+    background-image: url("/src/img/OutFoodQuality-background.png");
     background-repeat: no-repeat;
-    background-size: 60.4%, 100%, 30%, 36%;
-    background-repeat: no-repeat;
-    background-position: right 800px, 0, right 5px, left 1183px;
+    background-size: 100%;
+    background-position: center;
+
+
+
+    .imgFood1 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        max-width: 429px;
+        height: 804px;
+        background-image: url("/src/img/OutFoodQuality-img1.png");
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 500px;
+    }
+
+    .imgFood2 {
+        position: absolute;
+        top: 799px;
+        right: 0;
+        width: 100%;
+        max-width: 872px;
+        height: 1035px;
+        background-image: url("/src/img/OutFoodQuality-img2.png");
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 1000px;
+    }
+
+    .imgFood3 {
+        position: absolute;
+        top: 1166px;
+        left: 0;
+        width: 100%;
+        max-width: 516px;
+        height: 610px;
+        background-image: url("/src/img/OutFoodQuality-img3.png");
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: -550px;
+    }
+
+
+
+
+
+
+
 
 
     &-banner {
@@ -21,7 +72,27 @@
 
     @media (max-width:1300px) {
         padding: 355px 0 997px 0;
-        background-position: right 766px, 0, right 50px, left 1061px;
+
+        .imgFood1 {
+            top: 150px;
+            max-width: 337px;
+            height: 629px;
+
+        }
+
+        .imgFood2 {
+            top: 736px;
+            max-width: 778px;
+            height: 928px;
+        }
+
+        .imgFood3 {
+            top: 1057px;
+            max-width: 475px;
+            height: 564px;
+        }
+
+
     }
 
     @media (max-width:1197px) {
@@ -30,15 +101,63 @@
         }
 
 
+        .imgFood2 {
+            top: 745px;
+            max-width: 717px;
+            height: 858px;
+        }
+
+        .imgFood3 {
+            top: 1048px;
+            height: 516px;
+            max-width: 436px;
+        }
+
+
     }
 
     @media (max-width:1133px) {
         padding: 230px 0 860px 0;
-        background-position: right 641px, 0, right 26px, left 912px;
+
+        .imgFood1 {
+            top: 112px;
+            max-width: 306px;
+            height: 571px;
+        }
+
+        .imgFood2 {
+            top: 636px;
+            max-width: 660px;
+            height: 784px;
+        }
+
+        .imgFood3 {
+            top: 906px;
+            height: 492px;
+            max-width: 412px;
+        }
+
     }
 
     @media (max-width:981px) {
-        background-position: right 550px, 0, right 26px, left 799px;
+
+        .imgFood1 {
+            top: 39px;
+            max-width: 293px;
+        }
+
+        .imgFood2 {
+            top: 561px;
+            max-width: 582px;
+            height: 694px;
+        }
+
+        .imgFood3 {
+            top: 802px;
+            height: 423px;
+            max-width: 357px;
+        }
+
 
         &-banner {
             &>h2 {
@@ -52,7 +171,24 @@
     }
 
     @media (max-width:882px) {
-        background-position: right 516px, 0, right 67px, left 751px;
+
+        .imgFood1 {
+            max-width: 260px;
+            height: 490px;
+            top: 69px;
+        }
+
+        .imgFood2 {
+            top: 517px;
+            max-width: 531px;
+            height: 635px;
+        }
+
+        .imgFood3 {
+            top: 751px;
+            max-width: 323px;
+            height: 387px;
+        }
 
         &-banner {
             max-width: 369px;
@@ -69,7 +205,28 @@
 
     @media (max-width:729px) {
         padding: 73px 0 682px 0;
-        background-position: right 382px, 0, right 1px, left 580px;
+
+        .imgFood1 {
+            max-width: 215px;
+            top: 21px;
+            height: 401px;
+        }
+
+        .imgFood2 {
+            top: 390px;
+            max-width: 439px;
+            height: 525px;
+
+        }
+
+        .imgFood3 {
+            top: 578px;
+            max-width: 259px;
+            height: 311px;
+        }
+
+
+
 
         &-banner {
             max-width: 243px;
@@ -78,25 +235,102 @@
     }
 
     @media (max-width:696px) {
+
+        .imgFood1 {
+            max-width: 199px;
+            top: -15px;
+            height: 375px;
+        }
+
+        .imgFood2 {
+            top: 316px;
+            max-width: 418px;
+            height: 500px;
+        }
+
+        .imgFood3 {
+            top: 506px;
+            max-width: 235px;
+            height: 279px;
+
+        }
+
         padding: 73px 0 548px 0;
-        background-position: right 332px, 0, right 26px, left 509px;
-        background-size: 60.4%, 100%, 26%, 36%;
+
     }
 
     @media (max-width:600px) {
+        .imgFood1 {
+            max-width: 184px;
+            top: -28px;
+            height: 343px;
+        }
+
+        .imgFood2 {
+            top: 256px;
+            max-width: 364px;
+            height: 501px;
+        }
+
+        .imgFood3 {
+            top: 442px;
+            height: 279px;
+            max-width: 221px;
+        }
+
+
         padding: 73px 0 446px 0;
-        background-position: right 292px, 0, right 35px, left 443px;
+
     }
 
     @media (max-width:517px) {
-        padding: 73px 0 331px 0;
-        background-position: right 246px, 0, right 21px, left 379px;
+
+
+        .imgFood1 {
+            max-width: 151px;
+            top: -28px;
+            height: 285px;
+        }
+
+        .imgFood2 {
+            top: 232px;
+            max-width: 275px;
+            height: 369px;
+        }
+
+        .imgFood3 {
+            top: 363px;
+            height: 230px;
+            max-width: 186px;
+        }
+
+        padding: 92px 0 331px 0;
+
 
     }
 
     @media (max-width:410px) {
+
+        .imgFood1 {
+            max-width: 124px;
+            top: -13px;
+            height: 234px;
+        }
+
+        .imgFood2 {
+            top: 196px;
+            max-width: 251px;
+            height: 302px;
+        }
+
+        .imgFood3 {
+            top: 307px;
+            height: 177px;
+            max-width: 148px;
+        }
+
         padding: 73px 0 258px 0;
-        background-position: right 203px, 0, right 21px, left 310px;
+
 
         &-banner {
             max-width: 156px;
@@ -112,8 +346,26 @@
 
     }
 
-    @media (max-width:341px) {
-        padding: 42px 0 187px 0;
-        background-position: right 161px, 0, right 15px, left 247px
+    @media (max-width:380px) {
+        padding: 87px 0 226px 0;
+
+        .imgFood1 {
+            max-width: 108px;
+            top: 10px;
+            height: 202px;
+        }
+
+        .imgFood2 {
+            top: 202px;
+            max-width: 175px;
+            height: 271px;
+        }
+
+        .imgFood3 {
+            top: 296px;
+            height: 158px;
+            max-width: 131px;
+        }
+
     }
 }

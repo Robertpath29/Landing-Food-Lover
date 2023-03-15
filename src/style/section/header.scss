@@ -6,6 +6,8 @@
     left: 0;
     right: 0;
     align-items: center;
+    transition: Background-color, padding-top 0.3s;
+
 
     &-navLeft {
         width: 100%;
@@ -81,8 +83,10 @@
     }
 
     @media (max-width:855px) {
-
+        height: 66px;
         justify-content: flex-start;
+        align-items: start;
+        padding-top: 37px;
 
         &-logo {
             display: none;
@@ -90,7 +94,7 @@
 
         &-navRight {
             position: absolute;
-            margin-top: 60px;
+            margin-top: 30px;
             right: 0;
 
             &>ul {
