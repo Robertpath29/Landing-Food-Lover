@@ -10,7 +10,8 @@ footer.footer.d-flex
     .footer-icon.d-flex 
         -var media = ["https://uk-ua.facebook.com/", "https://twitter.com/?lang=uk", "https://www.instagram.com/","https://ru.pinterest.com/"] 
         -var icons = ["fa-brands fa-facebook-f", "fa-brands fa-twitter","fa-brands fa-instagram","fa-brands fa-pinterest-p"]
+        -var name = ["facebook","twitter","instagram","pinterest"]
         each icon, kay in icons 
-            a.d-flex(href=`${media[kay]}` target="blanc") 
+            a.d-flex(href=`${media[kay]}` aria-label=name[kay] target="blanc") 
                 i(class=`${icon}`)  
 
