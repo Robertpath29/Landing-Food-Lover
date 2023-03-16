@@ -1,5 +1,5 @@
 export function navigation(scrollPages) {
-    $("a").removeClass("active");
+    $(".header button").removeClass("active");
     const sectionHero = $(".hero");
     const sectionAboutUs = $(".aboutUs");
     const sectionFoodQuality = $(".foodQuality");

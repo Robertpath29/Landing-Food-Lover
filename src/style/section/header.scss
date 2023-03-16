@@ -8,6 +8,13 @@
     align-items: center;
     transition: Background-color, padding-top 0.3s;
 
+    button {
+        border: 0;
+        background-color: transparent;
+        margin: 0;
+        padding: 0;
+    }
+
 
     &-navLeft {
         width: 100%;
