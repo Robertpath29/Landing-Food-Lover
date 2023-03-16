@@ -44,7 +44,7 @@ module.exports = {
         }),
 
         new FaviconsWebpackPlugin({
-            logo: path.resolve(__dirname, './src/img/favicons/food-lover-favicon.png'),
+            logo: path.resolve(__dirname, './src/img/favicons/food-lover-favicon.webp'),
 
             outputPath: "favicons/",
             prefix: "favicons/",
